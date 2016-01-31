@@ -1,3 +1,7 @@
+require 'nokogiri'
+require 'net/http'
+require 'uri'
+
 require 'laliga_stats_parser/version'
 
 require_relative 'laliga_stats_parser/common_functions'
