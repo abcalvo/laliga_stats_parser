@@ -1,5 +1,5 @@
 # Module for scrapping data from Build up play section, La Liga website
-module LaLigaStatsParser
+module LaligaStatsParser
   module_function
 
   # Build up play section (only field players)
