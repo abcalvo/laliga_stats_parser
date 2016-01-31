@@ -1,15 +1,15 @@
-require "laliga_stats_parser/version"
+require 'laliga_stats_parser/version'
 
-require 'laliga_stats_parser/common_functions'
+require_relative 'laliga_stats_parser/common_functions'
 
-require 'laliga_stats_parser/attack'
-require 'laliga_stats_parser/buildup_play'
-require 'laliga_stats_parser/defence'
-require 'laliga_stats_parser/discipline'
-require 'laliga_stats_parser/efficiency'
-require 'laliga_stats_parser/events'
-require 'laliga_stats_parser/goals'
-require 'laliga_stats_parser/profile'
+require_relative 'laliga_stats_parser/attack'
+require_relative 'laliga_stats_parser/buildup_play'
+require_relative 'laliga_stats_parser/defence'
+require_relative 'laliga_stats_parser/discipline'
+require_relative 'laliga_stats_parser/efficiency'
+require_relative 'laliga_stats_parser/events'
+require_relative 'laliga_stats_parser/goals'
+require_relative 'laliga_stats_parser/profile'
 
 # LaLigaParser
 # Module for scrapping player statistics from La Liga website
