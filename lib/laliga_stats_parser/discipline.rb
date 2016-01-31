@@ -35,7 +35,7 @@ module LaligaStatsParser
         .css('#estadisticas-disciplina .estadisticas_jugador_tabla')[0]
         .css('tr')[5].css('td')[2].text
       )
-      fouls_commited = format_number(
+      fouls_committed = format_number(
         nokogiri_parsed_data
         .css('#estadisticas-disciplina .estadisticas_jugador_tabla')[0]
         .css('tr')[6].css('td')[2].text
@@ -45,7 +45,7 @@ module LaligaStatsParser
         .css('#estadisticas-disciplina .estadisticas_jugador_tabla')[0]
         .css('tr')[7].css('td')[2].text
       )
-      penalties_commited = format_number(
+      penalties_committed = format_number(
         nokogiri_parsed_data
         .css('#estadisticas-disciplina .estadisticas_jugador_tabla')[0]
         .css('tr')[8].css('td')[2].text
@@ -67,9 +67,9 @@ module LaligaStatsParser
       sent_off: sent_off || nil,
       offsides: offsides || nil,
       fouls_suffered: fouls_suffered || nil,
-      fouls_commited: fouls_commited || nil,
+      fouls_committed: fouls_committed || nil,
       penalties_awarded: penalties_awarded || nil,
-      penalties_commited: penalties_commited || nil,
+      penalties_committed: penalties_committed || nil,
       handball: handball || nil
     }
   end

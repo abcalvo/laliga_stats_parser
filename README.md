@@ -1,9 +1,5 @@
 # LaligaStatsParser
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/laliga_stats_parser`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +18,60 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+stats = LaligaStatsParser.scrap_laliga_stats
+```
+
+```LaligaStatsParser.scrap_laliga_stats``` returns an array of players with this structure:
+
+Goalkeeper
+```
+name
+nickname
+team
+position
+minutes_played
+games_played
+starter
+substitution_on
+substitution_off
+
+goals_conceded
+  total
+  inside_area
+  outside_area
+shots_saved
+  inside_area
+  outside_area
+  caught
+  parried
+  penalty_saves
+clean_sheets
+saves_per_goal
+saves
+clearances
+off_lines
+tackles
+goalkicks
+  successful_goalkicks
+  unsuccessful_goalkicks
+  goalkicks_pct
+crosses_gk
+  crosses_intercepted
+  crosses_not_intercepted
+  crosses_punched
+
+yellow_cards
+second_yellow_cards
+red_cards
+sent_off
+offsides
+fouls_suffered
+fouls_commited
+penalties_awarded
+penalties_commited
+handball
+```
 
 ## Development
 
@@ -38,4 +87,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
