@@ -89,7 +89,7 @@ clearances
 tackles
   successful_tackles
   unsuccessful_tackles
-  last_man_tackes
+  last_man_tackles
 challenges
   successful_challenges
   unsuccessful_challenges

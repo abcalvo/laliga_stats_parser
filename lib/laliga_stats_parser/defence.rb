@@ -35,7 +35,7 @@ module LaligaStatsParser
         .css('#estadisticas-defensa .estadisticas_jugador_tabla')[1]
         .css('tr')[1].css('td')[1].text
       )
-      last_man_tackes = format_number(
+      last_man_tackles = format_number(
         nokogiri_parsed_data
         .css('#estadisticas-defensa .estadisticas_jugador_tabla')[1]
         .css('tr')[2].css('td')[1].text
@@ -83,7 +83,7 @@ module LaligaStatsParser
       tackles: {
         successful_tackles: successful_tackles || nil,
         unsuccessful_tackles: unsuccessful_tackles || nil,
-        last_man_tackes: last_man_tackes || nil
+        last_man_tackles: last_man_tackles || nil
       },
       challenges: {
         successful_challenges: successful_challenges || nil,
