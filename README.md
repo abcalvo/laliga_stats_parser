@@ -167,7 +167,7 @@ handball
 ```
 
 You can transform this array into JSON data:
-```
+```ruby
 require 'laliga_stats_parser'
 require 'json'
 
@@ -177,6 +177,12 @@ File.open("laliga.json", "wb") do |file|
   file << JSON.pretty_generate(stats)
 end
 ```
+
+And import the resultant file into MongoDB (database name laliga, collection name statistics):
+```
+mongoimport -d laliga -c statistics laliga.json --jsonArray
+```
+
 
 ## Development
 
