@@ -88,70 +88,70 @@ interceptions
 clearances
 tackles
   successful_tackles
-	unsuccessful_tackles
+  unsuccessful_tackles
 	last_man_tackes
 challenges
-	successful_challenges
-	unsuccessful_challenges
-	challenges_pct
+  successful_challenges
+  unsuccessful_challenges
+  challenges_pct
 air_duels
-	successful_air_duels
-	unsuccessful_air_duels
-	air_duel_pct
+  successful_air_duels
+  unsuccessful_air_duels
+  air_duel_pct
 passes
 long_passes
-	successful_long_passes
-	unsuccessful_long_passes
-	long_passes_pct
+  successful_long_passes
+  unsuccessful_long_passes
+  long_passes_pct
 short_passes
-	successful_short_passes
-	unsuccessful_short_passes
-	short_passes_pct
+  successful_short_passes
+  unsuccessful_short_passes
+  short_passes_pct
 total_passes
-	successful_total_passes
-	unsuccessful_total_passes
-	total_passes_pct
+  successful_total_passes
+  unsuccessful_total_passes
+  total_passes_pct
 into_space
-	successful_into_space
-	unsuccessful_into_space
-	into_space_pct
+  successful_into_space
+  unsuccessful_into_space
+  into_space_pct
 total_forward
 total_backward
 crosses
-	successful_crosses
-	unsuccessful_crosses
-	crosses_pct
+  successful_crosses
+  unsuccessful_crosses
+  crosses_pct
 corners_taken
-	successful_corners_taken
-	unsuccessful_corners_taken
-	corners_taken_pct
+  successful_corners_taken
+  unsuccessful_corners_taken
+  corners_taken_pct
 key_passes
 shots
-	total
-	shots_on_target
-	shots_on_target_pct
+  total
+  shots_on_target
+  shots_on_target_pct
 assists
 dribbles
-	successful_dribbles
-	unsuccessful_dribbles
-	dribbles_pct
+  successful_dribbles
+  unsuccessful_dribbles
+  dribbles_pct
 goals
-	total
-	ratio
-	inside_area
-	inside_area_pct
-	outside_area
-	outside_area_pct
-	penalties
-	penalties_pct
-	right_foot
-	right_foot_pct
-	left_foot
-	left_foot_pct
-	head
-	head_pct
-	free_kicks
-	free_kicks_pct
+  total
+  ratio
+  inside_area
+  inside_area_pct
+  outside_area
+  outside_area_pct
+  penalties
+  penalties_pct
+  right_foot
+  right_foot_pct
+  left_foot
+  left_foot_pct
+  head
+  head_pct
+  free_kicks
+  free_kicks_pct
   own_goals
 penalties_shot
 yellow_cards
